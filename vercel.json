@@ -1,0 +1,26 @@
+{
+	"version": 2,
+	"build": {
+		"outputDirectory": "./.vitepress/dist"
+	},
+	"headers": [
+		{
+			"source": "/assets/(.*)",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "max-age=31536000, immutable"
+				}
+			]
+		},
+		{
+			"source": "/.*\\.(png|jpg)",
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "max-age=31536000, immutable"
+				}
+			]
+		}
+	]
+}
