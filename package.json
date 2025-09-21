@@ -22,7 +22,8 @@
 		"dev": "vitepress dev",
 		"dev:force": "vitepress dev --force",
 		"build": "vitepress build",
-		"serve": "vitepress serve"
+		"serve": "vitepress serve",
+		"preview": "vitepress preview --path=.vitepress/dist"
 	},
 	"dependencies": {
 		"animate.css": "^4.1.1",
