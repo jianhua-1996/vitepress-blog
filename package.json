@@ -6,16 +6,16 @@
 	"license": "MIT",
 	"type": "module",
 	"devDependencies": {
-		"fast-glob": "^3.3.2",
+		"fast-glob": "^3.3.3",
 		"feed": "^4.2.2",
 		"fs-extra": "^11.2.0",
 		"globby": "^14.1.0",
 		"gray-matter": "^4.0.3",
-		"markdown-it": "^14.1.0",
+		"markdown-it": "^14.1.1",
 		"markdown-it-mathjax3": "^4.3.2",
 		"mermaid": "^11.9.0",
-		"vite-plugin-vue-devtools": "^7.7.7",
-		"vitepress": "^1.6.3",
+		"vite-plugin-vue-devtools": "^7.7.9",
+		"vitepress": "^1.6.4",
 		"vitepress-plugin-mermaid": "^2.0.17"
 	},
 	"scripts": {
@@ -27,7 +27,7 @@
 	},
 	"dependencies": {
 		"animate.css": "^4.1.1",
-		"dayjs": "^1.11.13",
+		"dayjs": "^1.11.20",
 		"gitalk": "^1.8.0",
 		"typed.js": "^2.1.0"
 	},
