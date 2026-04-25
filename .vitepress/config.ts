@@ -7,6 +7,7 @@ import type { UserConfig } from 'vitepress'
 
 async function config(): Promise<UserConfig> {
 	return {
+		base: '/vitepress-blog/',
 		lang: 'zh-CN',
 		title: "jianhua1996's blog",
 		head: [
