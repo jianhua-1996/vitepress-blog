@@ -47,7 +47,7 @@ async function config(): Promise<UserConfig> {
 				}
 			],
 			socialLinks: [{ icon: 'github', link: 'https://github.com/jianhua1996' }],
-			outline: [2, 4], // outline 中要显示的标题级别
+			outline: false,
 			showFireworksAnimation: false,
 			lastUpdatedText: '最后更新于',
 			docFooter: {

@@ -48,6 +48,10 @@
   display: none !important;
 }
 
+.VPDoc .aside {
+  display: none !important;
+}
+
 @media (min-width: 960px) {
   #VPContent .content {
     padding-left: 16px;
