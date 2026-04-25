@@ -46,7 +46,7 @@ async function config(): Promise<UserConfig> {
 					link: '/archives'
 				}
 			],
-			socialLinks: [{ icon: 'github', link: 'https://github.com/jianhua1996' }],
+			socialLinks: [{ icon: 'github', link: 'https://github.com/jianhua-1996' }],
 			outline: false,
 			showFireworksAnimation: false,
 			lastUpdatedText: '最后更新于',
